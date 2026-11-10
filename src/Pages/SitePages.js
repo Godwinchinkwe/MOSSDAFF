@@ -4,12 +4,14 @@ import { useLanguage } from "../App";
 
 const images = {
   hero: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=2200&q=88",
-  car: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=85",
+  car: "https://i.pinimg.com/736x/66/39/65/663965e5b23922dd5c5a58864a630a90.jpg",
   parts:
     "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1200&q=85",
   engine:
     "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=1200&q=85",
   port: "https://images.unsplash.com/photo-1578575437130-527797f5e6f7?auto=format&fit=crop&w=1500&q=85",
+  part1:"https://i.pinimg.com/736x/26/01/e9/2601e97011035d2b10c79172cd8b1548.jpg",
+  part2:"https://i.pinimg.com/1200x/62/14/9d/62149d6e0ecd3917abddec39ab4bcee5.jpg",
 };
 
 const content = {
@@ -312,6 +314,10 @@ const content = {
   },
 };
 
+
+
+
+
 function useCopy() {
   const { language } = useLanguage();
   return content[language] || content.en;
@@ -321,9 +327,8 @@ function PageHero({ tag, title, lead, image = images.port }) {
     <section
       className="page-hero"
       style={{
-        backgroundImage: `linear-gradient(90deg, rgba(15,39,30,.92), rgba(15,39,30,.58)), url(${image})`,
-      }}
-    >
+        backgroundImage: `linear-gradient(90deg, rgba(15,39,30,.92), rgba(15,39,30,.58)), url(${image})`,}}>
+
       <div className="container page-hero-inner">
         <span className="eyebrow light">{tag}</span>
         <h1>{title}</h1>
@@ -383,6 +388,70 @@ export function Home() {
           <i /> <span>02</span>
         </div>
       </section>
+
+
+
+
+      <section className="section-pad">
+        <div className="container">
+          <div className="service-detail-grid">
+            <article className="service-detail">
+              <img src={images.part1} alt="Used car sourcing" />
+              <span className="eyebrow">01 / VEHICLES</span>
+              <h2>Shock Absorber</h2>
+              <Link className="text-link" to="/contact">
+                {t.contact}
+                <span>↗</span>
+              </Link>
+            </article>
+
+            <article className="service-detail">
+              <img src={images.parts} alt="Automotive spare parts" />
+              <span className="eyebrow">02 / PARTS</span>
+              <h2>{t.serviceTwo}</h2>
+              {/* <p>{t.serviceTwoText}</p> */}
+              {/* <p>{t.partsText}</p> */}
+              <Link className="text-link" to="/contact">
+                {t.contact}
+                <span>↗</span>
+              </Link>
+            </article>
+
+              <article className="service-detail">
+              <img src={images.part2} alt="Automotive spare parts" />
+              <span className="eyebrow">02 / PARTS</span>
+              <h2>Complete Motor Engine</h2>
+              {/* <p>{t.serviceTwoText}</p> */}
+              {/* <p>{t.partsText}</p> */}
+              <Link className="text-link" to="/contact">
+                {t.contact}
+                <span>↗</span>
+              </Link>
+            </article>
+              <article className="service-detail">
+              <img src={images.parts} alt="Automotive spare parts" />
+              <span className="eyebrow">02 / PARTS</span>
+              <h2>{t.serviceTwo}</h2>
+              <Link className="text-link" to="/contact">
+                {t.contact}
+                <span>↗</span>
+              </Link>
+            </article>
+          </div>
+        </div>
+      </section>
+
+
+
+   
+
+
+
+
+
+
+
+
       <section className="intro-section section-pad">
         <div className="container intro-grid">
           <div>
