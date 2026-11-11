@@ -12,7 +12,7 @@ const images = {
   port: "https://images.unsplash.com/photo-1578575437130-527797f5e6f7?auto=format&fit=crop&w=1500&q=85",
   part1:"https://i.pinimg.com/736x/26/01/e9/2601e97011035d2b10c79172cd8b1548.jpg",
   part2:"https://i.pinimg.com/1200x/62/14/9d/62149d6e0ecd3917abddec39ab4bcee5.jpg",
-  parts3:"https://dohertisglobalresources.com/images/dgr/Used-Cars-for-Sale.jpg",
+  parts3:"https://guangcaiauto.com/wp-content/uploads/2024/10/Used-cars-for-sale.webp",
 };
 
 const content = {
@@ -421,7 +421,7 @@ export function Home() {
               <article className="service-detail">
               <img src={images.part2} alt="Automotive spare parts" />
               <span className="eyebrow">02 / PARTS</span>
-              <h2>Complete Motor Engine</h2>
+              <h2>Motor Rims</h2>
               {/* <p>{t.serviceTwoText}</p> */}
               {/* <p>{t.partsText}</p> */}
               <Link className="text-link" to="/contact">
