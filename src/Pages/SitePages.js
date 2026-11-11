@@ -28,14 +28,14 @@ const content = {
       </>
     ),
     heroText:
-      "Connecting customers and business partners in Nigeria with used vehicles and motor spare-parts sourcing from Japan.",
+      "Connecting customers and business partners Worldwide with used vehicles and motor spare-parts sourcing from Japan.",
     explore: "Explore our services",
     contact: "Start an enquiry",
     scroll: "SCROLL TO DISCOVER",
     introLabel: "WHO WE ARE",
     introTitle: "Bringing markets closer through dependable sourcing.",
     introText:
-      "Mossdaff Investment, Ltd. is an international trade and sourcing company based in Tokyo, Japan. We focus on helping customers and trade partners in Nigeria access used vehicles and motor spare parts through clear communication and coordinated procurement.",
+      "Mossdaff Investment, Ltd. is an international trade and sourcing company based in Tokyo, Japan. We focus on helping customers and trade partners worldwide access used vehicles and motor spare parts through clear communication and coordinated procurement.",
     readAbout: "Discover Mossdaff",
     servicesLabel: "WHAT WE DO",
     servicesTitle: "Sourcing solutions built around your requirements.",
@@ -78,8 +78,8 @@ const content = {
       "A practical approach for individual customers, entrepreneurs and businesses.",
     ctaTitle: "Have a vehicle or parts requirement?",
     ctaText:
-      "Tell us what you are looking for. We welcome enquiries from individuals, entrepreneurs and business partners in Nigeria.",
-    aboutTitle: "A sourcing partner connecting Japan and Nigeria",
+      "Tell us what you are looking for. We welcome enquiries from individuals, entrepreneurs and business partners worldwide.",
+    aboutTitle: "A sourcing partner connecting Japan and the world",
     aboutLead:
       "Mossdaff Investment, Ltd. is focused on international vehicle and motor spare-parts sourcing.",
     aboutBody:
@@ -92,7 +92,7 @@ const content = {
       "To build lasting connections between Japan and Nigeria and become a trusted sourcing partner for customers and businesses seeking automotive products.",
     servicesTitlePage: "Sourcing services for automotive trade",
     servicesLead:
-      "Practical support for used vehicle and motor spare-parts enquiries between Japan and Nigeria.",
+      "Practical support for used vehicle and motor spare-parts enquiries between Japan and Worldwide.",
     businessTitle: "Our automotive trade focus",
     businessLead:
       "Two clear areas of focus: used vehicles and motor spare parts.",
@@ -141,7 +141,7 @@ const content = {
         "Part numbers, vehicle make and model, photos and specifications can help identify the component you need.",
       ],
       [
-        "Understanding the Japan–Nigeria sourcing journey",
+        "Understanding the Japan sourcing journey",
         "Cross-border sourcing involves several steps. Ask questions early and make sure requirements, costs and arrangements are confirmed before proceeding.",
       ],
     ],
